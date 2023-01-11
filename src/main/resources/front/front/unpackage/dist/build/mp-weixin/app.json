@@ -1,0 +1,106 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/zhiyuanzhe/list",
+    "pages/zhiyuanzhe/add-or-update",
+    "pages/zhiyuanzhe/detail",
+    "pages/putongguanliyuan/list",
+    "pages/putongguanliyuan/add-or-update",
+    "pages/putongguanliyuan/detail",
+    "pages/fuwuleixing/list",
+    "pages/fuwuleixing/add-or-update",
+    "pages/fuwuleixing/detail",
+    "pages/zhiyuanhuodong/list",
+    "pages/zhiyuanhuodong/add-or-update",
+    "pages/zhiyuanhuodong/detail",
+    "pages/huodongbaoming/list",
+    "pages/huodongbaoming/add-or-update",
+    "pages/huodongbaoming/detail",
+    "pages/dakaqiandao/list",
+    "pages/dakaqiandao/add-or-update",
+    "pages/dakaqiandao/detail",
+    "pages/dakatuiqian/list",
+    "pages/dakatuiqian/add-or-update",
+    "pages/dakatuiqian/detail",
+    "pages/huodongxinde/list",
+    "pages/huodongxinde/add-or-update",
+    "pages/huodongxinde/detail",
+    "pages/xinwenzixun/list",
+    "pages/xinwenzixun/add-or-update",
+    "pages/xinwenzixun/detail",
+    "pages/zhiyuanshizhang/list",
+    "pages/zhiyuanshizhang/add-or-update",
+    "pages/zhiyuanshizhang/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discusszhiyuanhuodong/list",
+    "pages/discusszhiyuanhuodong/add-or-update",
+    "pages/discusszhiyuanhuodong/detail",
+    "pages/discussxinwenzixun/list",
+    "pages/discussxinwenzixun/add-or-update",
+    "pages/discussxinwenzixun/detail",
+    "pages/exampaperlist/list",
+    "pages/exampaperlist/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examfailrecord/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "亚洲杯志愿者管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#777777",
+    "selectedColor": "#FF7214",
+    "borderStyle": "white",
+    "backgroundColor": "#F4F4F4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhiyuanhuodong/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "志愿活动"
+      },
+      {
+        "pagePath": "pages/huodongxinde/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "活动心得"
+      },
+      {
+        "pagePath": "pages/xinwenzixun/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
